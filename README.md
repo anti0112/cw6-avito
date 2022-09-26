@@ -8,7 +8,7 @@ source venv/Scripts/activate
 ```shell
 pip install -r requirements.txt
 ```
-### 2. Создаем контейнер с базой данных Postgresql с помощью команды не забудьте перейти в папку `./market_postgres`:
+### 2. Создаем контейнеры с базой данных Postgresql, frontend, nginx с помощью команды не забудьте перейти в папку `./market_postgres`:
 ```shell
 docker-compose up -d 
 ```
